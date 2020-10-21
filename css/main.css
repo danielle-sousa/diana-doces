@@ -64,6 +64,8 @@ h3 {
     margin-left: -1rem !important;
   }
 
+ /**********SCROLL TOP**********/
+  
   .scroll-top {
     position: fixed;
     font-size: 30px;
@@ -81,3 +83,11 @@ h3 {
 .scroll-top:hover {
     color: #6c436f;
 }
+
+/**********RESPONSIVIDADE***********/
+
+  @media (max-width: 575.98px) {
+    .img-monte-bolo {
+        display: none;
+    }
+  }
