@@ -1,4 +1,6 @@
-<center><img src="https://github.com/danielle-sousa/diana-doces/blob/main/img/thumbnail.PNG"></center>
+<center><img src="https://github.com/danielle-sousa/diana-doces/blob/main/img/thumbnail.PNG">
+Live Preview: https://danielle-sousa.github.io/diana-doces/
+</center>
 
 # Diana Doces
 
