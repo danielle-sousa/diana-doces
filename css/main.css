@@ -1,7 +1,83 @@
+* {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
 .bg-transparent {
     background-color: transparent;
 }
 
 .bg-purple {
-    background-color: #835587;
+    background-color: #6c436f;
+}
+
+h3 {
+    color: #6c436f;
+}
+
+.card-title {
+    color: darkcyan;
+    letter-spacing: 1px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .nav-link {
+      letter-spacing: 1px;
+  }
+
+  .bg-img{
+	padding:120px 0;
+	background-image: url('../img/confeiteira2.jpg');
+	background-size: cover !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-monte{
+	background-color: #fbf6e3;
+}
+
+.text-purple {
+    color: #6c436f;
+}
+
+.ml-n1 {
+    margin-left: -1rem !important;
+  }
+
+  .scroll-top {
+    position: fixed;
+    font-size: 30px;
+    bottom: 50px;
+    right: 50px;
+	letter-spacing: .4px;
+    z-index: 999;
+}
+
+.scroll-top.active {
+    bottom: 30px;
+    right: 20px;
+}
+
+.scroll-top:hover {
+    color: #6c436f;
 }

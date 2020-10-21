@@ -17,7 +17,9 @@
 
     <!--MENU-->
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="navbar">
+      <div class="container">
+        <!--LOGO-->
         <a class="navbar-brand" href="index.html">
           <img src="img/logo.jpeg" width="120" height="120" alt="Diana Doces" loading="lazy">
         </a>
@@ -29,25 +31,25 @@
 
         <div class="collapse navbar-collapse text-right float-lg-right justify-content-lg-end" id="navbarToggler">
           <ul class="navbar-nav text-right float-lg-right justify-content-lg-end">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#navbar">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Nós</a>
+              <a class="nav-link" href="#sobre">SOBRE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nossos Produtos</a>
+              <a class="nav-link" href="#produtos">PRODUTOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Monte Seu Bolo</a>
+              <a class="nav-link" href="#monte">MONTE SEU BOLO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">CONTATO</a>
             </li>
           </ul>
-  </div>
-
-      </nav>
+        </div>
+      </div>
+    </nav>
 
     <!--CAROUSEL-->
 
@@ -83,12 +85,337 @@
     </div>
 
     <!--DESTAQUES-->
-    <div class="container-fluid p-4">
-        <h3 class="text-center">DESTAQUES</h3>
-      </p>
+    <div class="container-fluid p-4" id="destaques">
+        <h3 class="text-center mb-4 text-purple display-4">DESTAQUES</h3>
+
+        <div class="card-group">
+          <div class="card text-center border-0">
+            <img src="img/festa.jpg" class="card-img-top hvr-grow" alt="Bolo de chocolate decorado em fundo branco">
+            <div class="card-body">
+              <h5 class="card-title font-weight-light">BOLOS DECORADOS</h5>
+              <a href="#especiais" class="btn btn-info">Ver mais!</a>
+            </div>
+          </div>
+          <div class="card text-center border-0">
+            <img src="img/caseiro.jpg" class="card-img-top hvr-grow" alt="Bolo caseiro com cobertura de chocolate">
+            <div class="card-body">
+              <h5 class="card-title font-weight-light">BOLOS CASEIROS</h5>
+              <a href="#caseiros" class="btn btn-info">Ver mais!</a>
+            </div>
+          </div>
+          <div class="card text-center border-0">
+            <img src="img/cupcakes.jpg" class="card-img-top hvr-grow" alt="Cupcakes coloridos com coberturas diversas">
+            <div class="card-body">
+              <h5 class="card-title font-weight-light">DOCES DIVERSOS</h5>
+              <a href="#diversos" class="btn btn-info">Ver mais!</a>
+            </div>
+          </div>
+        </div>
     </div>
 
+    <!--SOBRE-->
+    <div class="container-fluid bg-img text-light mb-4" id="sobre">
+      <div class="container text-center">
+        <h2 class="display-4">Sobre Nós</h2>
+        <p>Bem-vindo ao Diana Doces! Aqui você vai encontrar diferentes opções de doces e bolos com sabores que agradam o paladar. Doces que são feitos com amor para você!</p>
+
+        <p>Essa é uma empresa de bolos e doces caseira, onde a dona é quem coloca a "mão na massa". Não há uma sede, os bolos são feitos na casa da proprietária. A Diana, dona e boleira, começou trabalhando em lojas que vendem bolos, porém decidiu trabalhar por conta própria, e foi assim que em sua casa começou a vender bolos de potes e hoje vende além desses muitos outros doces. Seu carro chefe ainda são os bolos de potes, porém seu desejo é fazer com que seus potenciais clientes conheçam seus diversos produtos.</p>
+      </div>
+    </div>
+
+
     <!--PRODUTOS-->
+    <div class="container" id="produtos">
+      <h3 class="mb-4 text-center text-purple display-4">PRODUTOS</h3>
+
+      <!--INICIO DOS CARDS-->
+
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-7">
+            <img src="img/bolo-especial.jpg" class="card-img" alt="Bolo de chocolate decorado">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title mt-3" id="especiais">BOLOS ESPECIAIS</h5>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">Mousse de Chocolate com Danete</li>
+                <li class="list-group-item border-0">Mousse de Chocolate com Mousse de Maracujá</li>
+                <li class="list-group-item border-0">Paçoca</li>
+                <li class="list-group-item border-0">Danete</li>
+                <li class="list-group-item border-0">Creme Francês</li>
+                <li class="list-group-item border-0">Sensação</li>
+                <li class="list-group-item border-0">Brigadeiro com Danete</li>
+                <li class="list-group-item border-0">Doce de leite com coco</li>
+                <li class="list-group-item border-0">Churros</li>
+                <li class="list-group-item border-0">Nozes com leite Moça</li>
+                <li class="list-group-item border-0">Nozes com Doce de leite Trufado</li>
+                <li class="list-group-item border-0">Crocante</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title mt-3">BOLOS TRADICIONAIS</h5>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">Mousse Misto</li>
+                <li class="list-group-item border-0">Mousse Branco com Chocolate Branco</li>
+                <li class="list-group-item border-0">Prestígio</li>
+                <li class="list-group-item border-0">Brigadeiro</li>
+                <li class="list-group-item border-0">Brigadeiro com chocolate branco</li>
+                <li class="list-group-item border-0">Doce de leite</li>
+                <li class="list-group-item border-0">Doce de leite com ameixa</li>
+                <li class="list-group-item border-0">Floresta Negra ou Branca</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <img src="img/bolo-chocolate.jpg" class="card-img" alt="Bolo de chocolate com morangos">
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-7">
+            <img src="img/bolo-frutas.jpg" class="card-img" alt="Bolo de morango">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title mt-3">BOLOS COM FRUTAS</h5>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">Abacaxi com coco</li>
+                <li class="list-group-item border-0">Abacaxi com doce de leite</li>
+                <li class="list-group-item border-0">Morango</li>
+                <li class="list-group-item border-0">Morango com doce de leite</li>
+                <li class="list-group-item border-0">Delicia de morango com mousse de morango</li>
+                <li class="list-group-item border-0">Pêssego</li>
+                <li class="list-group-item border-0">Coco</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title mt-3">BOLOS COM NINHO</h5>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">Ninho com brigadeiro</li>
+                <li class="list-group-item border-0">Delícia de morango com ninho</li>
+                <li class="list-group-item border-0">Ninho com chocolate branco</li>
+                <li class="list-group-item border-0">Ninho</li>
+                <li class="list-group-item border-0">Ninho com Danete</li>
+                <li class="list-group-item border-0">Ninho com Nutella</li>
+                <li class="list-group-item border-0">Mousse de Ninho</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <img src="img/bolo-ninho.jpg" class="card-img" alt="Bolo de ninho">
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-7">
+            <img src="img/bolo-mesclado.jpg" class="card-img" alt="Bolo de chocolate decorado">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title mt-3" id="caseiros">BOLOS CASEIROS</h5>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">Fubá</li>
+                <li class="list-group-item border-0">Fubá cremoso</li>
+                <li class="list-group-item border-0">Milho</li>
+                <li class="list-group-item border-0">Cenoura com chocolate</li>
+                <li class="list-group-item border-0">Limão</li>
+                <li class="list-group-item border-0">Banana</li>
+                <li class="list-group-item border-0">Banana com maçã</li>
+                <li class="list-group-item border-0">Laranja</li>
+                <li class="list-group-item border-0">Mesclado</li>
+                <li class="list-group-item border-0">Formigueiro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title mt-3" id="diversos">DOCES DIVERSOS</h5>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">Brigadeiros</li>
+                <li class="list-group-item border-0">Brownies</li>
+                <li class="list-group-item border-0">Banoffee</li>
+                <li class="list-group-item border-0">Cupcakes</li>
+                <li class="list-group-item border-0">Torta holandesa</li>
+                <li class="list-group-item border-0">Torta de morango</li>
+                <li class="list-group-item border-0">Torta de limão</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <img src="img/cupcake.jpg" class="card-img" alt="Cupcake">
+          </div>
+        </div>
+      </div>
+
+      <!--FIM DOS CARDS-->
+
+    </div>
+
+    <!--MONTE SEU BOLO-->
+    <div class="container-fluid mb-4 bg-monte text-dark" id="monte">
+   
+      <div class="row">
+    
+    <div class="col-6">
+      <img src="img/montar-bolo.png" class="img-fluid mt-0 p-0 ml-n1">
+    </div>
+
+     <div class="col-6">
+      <h3 class="mb-4 mt-4 pt-4 text-center text-purple display-4">MONTE SEU BOLO</h3>
+
+    <form>
+      <div class="form-group font-weight-light">
+        <label for="EscolhaSuaMassa">* Escolha sua massa:</label>
+        <select class="form-control" id="massa" required>
+          <option>Massa Branca</option>
+          <option>Massa de Chocolate</option>
+        </select>
+      </div>
+
+      <div class="form-group font-weight-light">
+        <label for="EscolhaSeuRecheio">* Escolha seu recheio:</label>
+        <select class="form-control" id="recheio" required>
+          <!--NINHO-->
+          <option>Ninho com brigadeiro</option>
+          <option>Delícia de morango com ninho</option>
+          <option>Ninho com chocolate branco</option>
+          <option>Ninho</option>
+          <option>Ninho com Danete</option>
+          <option>Ninho com Nutella</option>
+          <option>Mousse de Ninho</option>
+
+          <!--FRUTAS-->
+          <option>Abacaxi com coco</option>
+          <option>Abacaxi com doce de leite</option>
+          <option>Morango</option>
+          <option>Morango com doce de leite</option>
+          <option>Delicia de morango com mousse de morango</option>
+          <option>Pêssego</option>
+          <option>Coco</option>
+
+          <!--TRADICIONAIS-->
+          <option>Mousse Misto</option>
+          <option>Mousse Branco com Chocolate Branco</option>
+          <option>Prestígio</option>
+          <option>Brigadeiro</option>
+          <option>Brigadeiro com chocolate branco</option>
+          <option>Doce de leite</option>
+          <option>Doce de leite com ameixa</option>
+          <option>Floresta Negra ou Branca</option>
+
+          <!--ESPECIAIS-->
+          <option>Mousse de Chocolate com Danete</option>
+          <option>Mousse de Chocolate com Mousse de Maracujá</option>
+          <option>Paçoca</option>
+          <option>Danete</option>
+          <option>Creme Francês</option>
+          <option>Sensação</option>
+          <option>Brigadeiro com Danete</option>
+          <option>Doce de leite com coco</option>
+          <option>Churros</option>
+          <option>Nozes com leite Moça</option>
+          <option>Nozes com Doce de leite Trufado</option>
+          <option>Crocante</option>
+        </select>
+      </div>
+
+      <div class="form-group font-weight-light">
+        <label for="QtdPessoas">* Defina a quantidade de pessoas:</label>
+        <select class="form-control" id="massa" required>
+          <option>10 pessoas</option>
+          <option>20 pessoas</option>
+          <option>30 pessoas</option>
+          <option>50 pessoas</option>
+          <option>100 pessoas</option>
+          <option>Acima de 100 pessoas</option>
+        </select>
+      </div>
+
+      <div class="form-group font-weight-light">
+        <label for="EscolhaSuaDecoracao ">Escolha sua decoração (opcional):</label>
+        <textarea class="form-control font-italic" id="SuaDecoracao" rows="3">Descreva a decoração desejada (topo de bolo temático, cobertura especial, etc)</textarea>
+      </div>
+
+      <small class="form-text text-dark">Os pedidos devem ser feitos com até 5 dias de antecedência.</small>
+
+      <button type="submit" class="btn btn-info mt-2 mb-2 ">Enviar</button>
+      <button type="reset" class="btn btn-info mt-2 mb-2 ml-2">Limpar</button>
+
+    </form>
+  </div>
+  </div>
+  </div>
+    <!--CONTATO-->
+    <div class="container mb-4" id="contato">
+      <h3 class="mb-4 mt-4 pt-4 text-center text-purple display-4">CONTATO</h3>
+
+      <!--INICIO FORM-->
+      <form action="php/script.php" method="POST">
+        <div class="form-group font-weight-light">
+          <label for="Nome">*Nome:</label>
+          <input type="text" class="form-control font-italic" name="nome" id="nome" placeholder="Seu nome..." required>
+          <small class="form-text text-muted">Obrigatório.</small>
+        </div>
+
+        <div class="form-group font-weight-light">
+          <label for="Email">*Email:</label>
+          <input type="email" class="form-control font-italic" name="email" id="email" placeholder="Seu email..." required>
+          <small class="form-text text-muted">Obrigatório.</small>
+        </div>
+
+        <div class="form-group font-weight-light">
+          <label for="Telefone">Telefone:</label>
+          <input type="tel" class="form-control font-italic" name="tel" id="tel" placeholder="Seu telefone com DDD...">
+        </div>
+
+        <div class="form-group font-weight-light">
+          <label for="Assunto">*Assunto:</label>
+          <input type="text" class="form-control font-italic" name="assunto" id="assunto" placeholder="Assunto da mensagem..." required>
+          <small class="form-text text-muted">Obrigatório.</small>
+        </div>
+
+        <div class="form-group font-weight-light">
+          <label for="Mensagem">* Sua Mensagem:</label>
+          <textarea class="form-control font-italic" name="mensagem" id="mensagem" rows="3">Escreva sua mensagem...</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-info mt-2 mb-2 ">Enviar</button>
+        <button type="reset" class="btn btn-info mt-2 mb-2 ml-2">Limpar</button>
+
+      </form>
+      <!--FIM FORM-->
+
+    </div>
 
     <!--FOOTER-->
     <div class="container-fluid bg-purple p-4">
@@ -102,27 +429,38 @@
           <p class="justify-content-center">
           <strong>Mapa do Site</strong>
           <a href="#" class="text-light nav-link">Home</a>
-          <a href="#" class="text-light nav-link">Sobre Nós</a>
-          <a href="#" class="text-light nav-link">Nossos Produtos</a>
-          <a href="#" class="text-light nav-link">Monte Seu Bolo</a>
-          <a href="#" class="text-light nav-link">Contato</a>
+          <a href="#sobre" class="text-light nav-link">Sobre Nós</a>
+          <a href="#produtos" class="text-light nav-link">Nossos Produtos</a>
+          <a href="#monte" class="text-light nav-link">Monte Seu Bolo</a>
+          <a href="#contato" class="text-light nav-link">Contato</a>
         </p>
       </div>
 
         <div class="col-4 text-light">
           <p class="justify-content-center">
-            <a href="#"><img src="img/face.png"></a>
-            <a href="#"><img src="img/insta.png"></a>
-            <a href="#"><img src="img/whatsapp.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100004755793378"><img src="img/face.png"></a>
+            <a href="https://www.instagram.com/bolotopdmais/"><img src="img/insta.png"></a>
+            <a href="tel:(13)974012430"><img src="img/whatsapp.png"></a>
           </p>
         </div>
       </div>
+
+      <div class="container text-center text-light">
+        <small>Desenvolvido por Danielle Sousa. Todos os direitos reservados © 2020.</small>
+      </div>
+
     </div>
+
+    <!--SCROLL TO TOP-->
+    <a href="#" class="scroll-top"><img src="img/up-arrow.png"></a>
 
     <!--JS-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/utils.js"></script>
 </body>
 </html>
